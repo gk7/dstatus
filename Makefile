@@ -1,5 +1,5 @@
 PROG 		= dstatus
-PREFIX 		= /usr/local/bin
+PREFIX 		= /usr/bin
 
 # Comment if you don't want mpd information
 #MPDLIB 		= -lmpdclient
@@ -20,7 +20,7 @@ clean:
 		rm -f ${PROG}
 
 install:
-		install -Dm755 ${PROG} ${DESTDIR}${PREFIX} ${PROG}
+		install -Dm755 ${PROG} ${DESTDIR}${PREFIX}
 
 uninstall:
 		rm -f ${PREFIX}/bin/${PROG}
