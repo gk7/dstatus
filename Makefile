@@ -20,7 +20,7 @@ clean:
 		rm -f ${PROG}
 
 install:
-		install -Dm755 ${PROG} ${DESTDIR}${PREFIX}/bin${PROG}
+		install -Dm755 ${PROG} ${DESTDIR}${PREFIX} ${PROG}
 
 uninstall:
 		rm -f ${PREFIX}/bin/${PROG}
