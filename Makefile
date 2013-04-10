@@ -1,5 +1,5 @@
 PROG 		= dstatus
-PREFIX 		= /usr/local
+PREFIX 		= /usr/local/bin
 
 # Comment if you don't want mpd information
 #MPDLIB 		= -lmpdclient
