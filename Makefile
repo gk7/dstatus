@@ -23,4 +23,4 @@ install:
 		install -Dm755 ${PROG} ${DESTDIR}${PREFIX}/${PROG}
 
 uninstall:
-		rm -f ${PREFIX}/bin/${PROG}
+		rm -f ${PREFIX}/${PROG}
