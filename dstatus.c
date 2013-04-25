@@ -28,7 +28,7 @@
 #define VOL_MUTE_STR	" \x08ë\x07 Mute\x07"				/* volume when muted */
 #define AC_STR			" \x08Â\x07 AC\x07"				    /* Ac status */
 #define BAT_STR		    " \x03ï\x07 Battery\x07"			/* Battery status */
-#define DATE_TIME_STR	" \x08É\x07 %a %I:%M\x07"	        /* This is a strftime format string which is passed localtime */
+#define DATE_TIME_STR	" \x08É\x07 %I:%M %a %d/%m\x07"	        /* This is a strftime format string which is passed localtime */
 #define NO_MPD_STR      " "                                 /* MPD, not playing */
 #define MPD_STR         "\x08æ\x07 %s\x07"                  /* MPD, playing */
 #define MPD_P_STR       "\x03ç\x07 Paused\x07"              /* MPD, paused */
