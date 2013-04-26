@@ -1,4 +1,4 @@
-###DStatus
+DStatus
 ----------
 ####A Status bar for dwm
 
@@ -8,10 +8,10 @@ Note that this was written to work with the status colors patch and use symbols 
 
 To remove the dependecy on status colors and ohsnap font, simply remove these characters from the format strings.
 
-__Dependencies:__
+__Dependencies:__<br>
 * libmpdclient
 * alsa-lib
 * libX11
 
-#####Forked from: [Jesse Mcclure a.k.a Trilby](http://github.com/trilbywhite)
-#####Thanks to: [Unia](http://github.com/unia) for alsa sound level query function.
+_Forked from: [Jesse Mcclure a.k.a Trilby](http://github.com/trilbywhite)_
+_Thanks to: [Unia](http://github.com/unia) for alsa sound level query function._
