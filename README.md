@@ -1,6 +1,7 @@
-DStatus
+###DStatus
 ----------
 ####A Status bar for dwm
+------------------------
 
 This is "hardcoded" for my system and was not meant to be flexible.  Flexibility costs memory and processor time.
 This can, however, be used as a template for your own status bar app.
