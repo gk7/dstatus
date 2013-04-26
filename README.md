@@ -13,5 +13,5 @@ __Dependencies:__
 * alsa-lib
 * libX11
 
-  [reference]: Forked from: [Jesse Mcclure a.k.a Trilby](http://github.com/trilbywhite)
-######Thanks to: [Unia](http://github.com/unia) for alsa sound level query function.
+#####Forked from: [Jesse Mcclure a.k.a Trilby](http://github.com/trilbywhite)
+#####Thanks to: [Unia](http://github.com/unia) for alsa sound level query function.
