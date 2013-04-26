@@ -1,4 +1,5 @@
 PROG 		= dstatus
+CC			= gcc
 PREFIX 		= /usr/bin
 
 # Comment if you don't want mpd information

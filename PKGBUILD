@@ -1,37 +1,29 @@
 pkgname=dstatus
-pkgver=20130328
+_gitname=dstatus
+pkgver=2013.04.26
 pkgrel=1
-pkgdesc='Statusinfo for DWM written in C'
-arch=(any)
-groups=(custom)
+pkgdesc='Statusbar for DWM written in C'
+arch=('any')
 url='https://github.com/gk7/dstatus'
-license=(custom)
-depends=(libx11 alsa-lib)
-optdepends=('libmpdclient: to have mpd current song in the statusbar')
+license=('GPL2')
+groups=('custom')
+depends=('libx11' 'alsa-lib')
+optdepends=('libmpdclient: For current MPD status')
 makedepends=(git)
+source=('git://github.com/gk7/dstatus.git')
+md5sum=('SKIP')
 
-_gitroot="https://github.com/gk7/dstatus"
-_gitname="dstatus"
+pkgver() {
+  cd $_gitname
+  git log -1 --format="%cd" --date=short | sed 's|-|.|g'
+}
 
 build() {
-	cd "$srcdir"/
-	msg "Connecting to GIT server...."
-
-	if [ -d $_gitname ] ; then
-		cd $_gitname && git pull origin
-		msg "The local files are updated."
-	else
-		git clone --depth=1 $_gitroot $_gitname
-		cd $_gitname
-	fi
-	msg "GIT checkout done or server timeout"
-
-	cd ${srcdir}/${_gitname}
-
-	make
+  cd $_gitname
+  make
 }
 
 package() {
-	cd ${srcdir}/${_gitname}
-	make DESTDIR="$pkgdir" install
+  cd $_gitname
+  make DESTDIR="$pkgdir" install
 }
