@@ -1,8 +1,5 @@
-DStatus
-=======
-
-A Status bar for dwm
---------------------
+####DStatus
+#####A Status bar for dwm
 
 Forked from: [Jesse Mcclure a.k.a Trilby](http://github.com/trilbywhite)
 
