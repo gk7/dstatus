@@ -4,8 +4,7 @@
 
 Forked from: Jesse Mcclure a.k.a Trilby
 github.com/trilbywhite
-Thanks to Unia: github.com/unia
-for alsa sound level query function.
+Thanks to Unia: github.com/unia for alsa sound level query function.
 
 This is "hardcoded" for my system and was not meant to be flexible.  Flexibility costs memory and processor time.
 This can, however, be used as a template for your own status bar app.
