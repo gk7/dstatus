@@ -1,7 +1,7 @@
 /*
  Originally forked from: github.com/trilbywhite
  Thanks to: github.com/unia for sound query and mpd.
- Modified by: illusionist: github.com/gk7 . I did some tweakings here and there and optimized cpu and free memory calculation.
+ Modified by: illusionist: github.com/gk7 . I did some tweakings and optimized cpu and free memory calculation.
 */
 #include <stdlib.h>
 #include <stdio.h>
@@ -173,3 +173,5 @@ int main() {
 	XCloseDisplay(dpy);
 	return 0;
 }
+/* vim: set ts=4 sw=4 tw=0: */
+
