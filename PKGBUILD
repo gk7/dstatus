@@ -11,7 +11,7 @@ optdepends=('libmpdclient: to have mpd current song in the statusbar')
 makedepends=(git)
 
 _gitroot="https://github.com/gk7/dstatus"
-_gitname="dwmst"
+_gitname="dstatus"
 
 build() {
 	cd "$srcdir"/
