@@ -20,7 +20,7 @@
 #define CPU_FILE		"/proc/stat"                        /* File to query for cpu information */
 #define MEM_FILE		"/proc/meminfo"                     /* File to query for memory information */
 #define VOL_CH          "Master"                            /* Channel to watch for volume */
-#define AC		       "/sys/class/power_supply/AC/online"
+#define AC		        "/sys/class/power_supply/AC/online"
 
 #define CPU_STR			" \x08Ñ\x07 %d%%\x07"				/* CPU percentage */
 #define MEM_STR			" \x08Î\x07 %ld MB\x07"	            /* Free memory */
@@ -174,4 +174,3 @@ int main() {
 	return 0;
 }
 /* vim: set ts=4 sw=4 tw=0: */
-
