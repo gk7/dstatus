@@ -3,8 +3,8 @@ CC			= gcc
 PREFIX 		= /usr/bin
 
 # Comment if you don't want mpd information
-#MPDLIB 		= -lmpdclient
-#MPDFLAG 	= -DMPD
+MPDLIB 		= -lmpdclient
+MPDFLAG 	= -DMPD
 
 # Comment if you don't want to display clock
 CLKFLAG		= -DCLK
